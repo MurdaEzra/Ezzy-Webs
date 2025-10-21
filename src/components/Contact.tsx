@@ -98,7 +98,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="font-semibold">Phone</div>
-                  <div className="text-foreground/70">+1 (555) 123-4567</div>
+                  <div className="text-foreground/70">+254 728 135 200</div>
                 </div>
               </div>
 
@@ -111,7 +111,7 @@ const Contact = () => {
                   <Button
                     variant="link"
                     className="p-0 h-auto text-foreground/70 hover:text-primary"
-                    onClick={() => window.open("https://wa.me/YOUR_PHONE_NUMBER", "_blank")}
+                    onClick={() => window.open("https://wa.me/254728135200", "_blank")}
                   >
                     Chat with us
                   </Button>

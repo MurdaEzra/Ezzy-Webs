@@ -60,7 +60,7 @@ const Navigation = () => {
               </motion.button>
             ))}
             <Button
-              onClick={() => window.open("https://wa.me/YOUR_PHONE_NUMBER", "_blank")}
+              onClick={() => window.open("https://wa.me/254728135200", "_blank")}
               className="bg-gradient-to-r from-primary to-secondary hover:opacity-90"
             >
               Chat on WhatsApp
@@ -95,7 +95,7 @@ const Navigation = () => {
                 </button>
               ))}
               <Button
-                onClick={() => window.open("https://wa.me/YOUR_PHONE_NUMBER", "_blank")}
+                onClick={() => window.open("https://wa.me/254728135200", "_blank")}
                 className="w-full bg-gradient-to-r from-primary to-secondary"
               >
                 Chat on WhatsApp

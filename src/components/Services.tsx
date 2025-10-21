@@ -87,7 +87,7 @@ const Services = () => {
                 <p className="text-foreground/70 mb-4">{service.description}</p>
                 <div className="flex items-baseline gap-2">
                   <span className="text-4xl font-bold text-gradient">
-                    ${service.price}
+                    Ksh.{service.price}
                   </span>
                   <span className="text-foreground/60">/ project</span>
                 </div>
