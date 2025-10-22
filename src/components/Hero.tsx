@@ -1,6 +1,8 @@
 import { ArrowRight, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { FaWhatsapp } from "react-icons/fa"
+
 
 const Hero = () => {
   return (
@@ -19,8 +21,7 @@ const Hero = () => {
             transition={{ duration: 0.5 }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-effect mb-6"
           >
-            <Sparkles className="w-4 h-4 text-primary" />
-            <span className="text-sm">Smart websites for growing brands</span>
+            <span className="text-sm">Smart websites for growing brands in Kenya</span>
           </motion.div>
 
           <motion.h1
@@ -64,6 +65,7 @@ const Hero = () => {
               onClick={() => window.open("https://wa.me/254728135200", "_blank")}
               className="border-primary/50 hover:bg-primary/10 text-lg"
             >
+              <FaWhatsapp className="w-8 h-8 text-green-500" />
               Chat on WhatsApp
             </Button>
           </motion.div>

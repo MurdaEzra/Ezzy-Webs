@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label";
 import { motion } from "framer-motion";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
+import { FaWhatsapp } from "react-icons/fa"
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -113,6 +114,7 @@ const Contact = () => {
                     className="p-0 h-auto text-foreground/70 hover:text-primary"
                     onClick={() => window.open("https://wa.me/254728135200", "_blank")}
                   >
+                    <FaWhatsapp className="w-8 h-8 text-green-500" />
                     Chat with us
                   </Button>
                 </div>

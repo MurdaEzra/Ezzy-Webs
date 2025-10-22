@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
+import { FaWhatsapp } from "react-icons/fa"
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -63,6 +64,7 @@ const Navigation = () => {
               onClick={() => window.open("https://wa.me/254728135200", "_blank")}
               className="bg-gradient-to-r from-primary to-secondary hover:opacity-90"
             >
+              <FaWhatsapp className="w-8 h-8 text-green-500" />
               Chat on WhatsApp
             </Button>
           </div>
@@ -98,6 +100,7 @@ const Navigation = () => {
                 onClick={() => window.open("https://wa.me/254728135200", "_blank")}
                 className="w-full bg-gradient-to-r from-primary to-secondary"
               >
+                <FaWhatsapp className="w-8 h-8 text-green-500" />
                 Chat on WhatsApp
               </Button>
             </motion.div>
