@@ -16,6 +16,7 @@ const Index = () => {
       <Services />
       <Contact />
       <Footer />
+      
     </div>
   );
 };
