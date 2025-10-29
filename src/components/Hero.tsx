@@ -2,6 +2,7 @@ import { ArrowRight, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { FaWhatsapp } from "react-icons/fa"
+import LiquidEther from "@/LiquidEther";
 
 
 const Hero = () => {
@@ -9,8 +10,15 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       {/* Animated Background */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-[100px] animate-float" />
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-[100px] animate-float" style={{ animationDelay: "3s" }} />
+        <LiquidEther
+      autoDemo
+      autoSpeed={0.8}
+      autoIntensity={2}
+      mouseForce={20}
+      cursorSize={80}
+      colors={["#5227FF", "#FF9FFC", "#B19EEF"]}
+      style={{ width: "100%", height: "100%" }}
+    />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
